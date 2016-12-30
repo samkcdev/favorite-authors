@@ -148,9 +148,10 @@ header nav ul li a:hover {
 /* line 9, ../sass/_content.scss */
 .content p {
   font-size: 14px;
+  line-height: 25px;
 }
 
-/* line 13, ../sass/_content.scss */
+/* line 14, ../sass/_content.scss */
 .content a {
   display: inline-block;
   border-color: #ccc;
