@@ -1,0 +1,7 @@
+compass commands
+
+compass compile=to compile css file
+
+compass watch= to watch changes to css files
+
+create compass to create new folder

@@ -1,0 +1,24 @@
+.content{
+    float:left;
+    background: $contentbg;
+    width: 70%;
+    padding: 15px;
+    color: $white;
+}
+
+.content p{
+    font-size: 14px;
+}
+
+.content a{
+    display: inline-block;
+    border:
+        {
+            color:#ccc;
+            width:1px;
+            style: solid
+            } 
+    padding: 5px 10px;
+    background: transparent;
+    color:$white;
+}

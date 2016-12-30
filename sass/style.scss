@@ -1,0 +1,42 @@
+@import "compass/reset";
+@import "compass/css3";
+$white:#fff;
+$brandcolor:#000;
+$contentbg:#068592;
+
+$commontransition:all 500ms ease-in;
+
+
+* { box-sizing: border-box; }
+
+html,body{
+    box-sizing: border-box;
+}
+
+body
+{
+    color:#333;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear:both;
+}
+
+.wrapper{
+    width: 960px;
+    max-width: 96%;
+    margin: 0 auto;
+}
+
+@import "header";
+@import "content";
+@import "sidebar";

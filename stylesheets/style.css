@@ -1,0 +1,170 @@
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 10, ../sass/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 12, ../sass/style.scss */
+html, body {
+  box-sizing: border-box;
+}
+
+/* line 16, ../sass/style.scss */
+body {
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 22, ../sass/style.scss */
+h2 {
+  font-size: 25px;
+}
+
+/* line 26, ../sass/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 30, ../sass/style.scss */
+.clear {
+  clear: both;
+}
+
+/* line 34, ../sass/style.scss */
+.wrapper {
+  width: 960px;
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+/* line 1, ../sass/_header.scss */
+header {
+  background: #ccc;
+  border-bottom: 1px solid #000;
+  padding: 0 15px;
+}
+/* line 5, ../sass/_header.scss */
+header .logo {
+  float: left;
+  padding: 20px 5px;
+  background: #fff;
+  color: #000;
+  display: block;
+}
+/* line 13, ../sass/_header.scss */
+header nav {
+  float: right;
+}
+/* line 15, ../sass/_header.scss */
+header nav ul li {
+  display: inline-block;
+}
+/* line 18, ../sass/_header.scss */
+header nav ul li a {
+  line-height: 56px;
+  display: block;
+  padding: 0 15px;
+  transition: all 500ms ease-in;
+}
+/* line 23, ../sass/_header.scss */
+header nav ul li a:hover {
+  background: #f00;
+  color: #fff;
+}
+
+/* line 1, ../sass/_content.scss */
+.content {
+  float: left;
+  background: #068592;
+  width: 70%;
+  padding: 15px;
+  color: #fff;
+}
+
+/* line 9, ../sass/_content.scss */
+.content p {
+  font-size: 14px;
+}
+
+/* line 13, ../sass/_content.scss */
+.content a {
+  display: inline-block;
+  border-color: #ccc;
+  border-width: 1px;
+  border-style: solid;
+  padding: 5px 10px;
+  background: transparent;
+  color: #fff;
+}
+
+/* line 1, ../sass/_sidebar.scss */
+.sidebar {
+  float: right;
+  background: #000;
+  width: 30%;
+  padding: 10px 15px;
+}
