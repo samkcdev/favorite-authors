@@ -32,6 +32,12 @@ a{
     clear:both;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
 .container{
     width: 1200px;
     max-width: 96%;

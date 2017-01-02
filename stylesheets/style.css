@@ -95,6 +95,13 @@ a {
 }
 
 /* line 35, ../sass/style.scss */
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+/* line 41, ../sass/style.scss */
 .container {
   width: 1200px;
   max-width: 96%;
@@ -161,21 +168,22 @@ header nav ul li a:hover {
 /* line 19, ../sass/_content.scss */
 .content figure {
   margin: 0 15px 0 0;
+  flex-shrink: 0;
 }
 
-/* line 23, ../sass/_content.scss */
+/* line 24, ../sass/_content.scss */
 .content-text h2 {
   margin-bottom: 15px;
 }
 
-/* line 27, ../sass/_content.scss */
+/* line 28, ../sass/_content.scss */
 .content p {
   font-size: 14px;
   line-height: 25px;
   margin-bottom: 15px;
 }
 
-/* line 34, ../sass/_content.scss */
+/* line 35, ../sass/_content.scss */
 .content a {
   display: inline-block;
   border-color: #ccc;
@@ -186,17 +194,17 @@ header nav ul li a:hover {
   color: #000;
 }
 
-/* line 47, ../sass/_content.scss */
+/* line 48, ../sass/_content.scss */
 .alt-content {
   background: #f00;
 }
 
-/* line 52, ../sass/_content.scss */
+/* line 53, ../sass/_content.scss */
 .alt-content figure {
   margin-right: 0;
 }
 
-/* line 56, ../sass/_content.scss */
+/* line 57, ../sass/_content.scss */
 .alt-content .content-text {
   margin-right: 15px;
 }
