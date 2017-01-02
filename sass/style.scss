@@ -44,6 +44,10 @@ img{
     margin: 0 auto;
 }
 
+.mainContent{
+    display: flex;
+}
+
 @import "header";
 @import "content";
 @import "sidebar";

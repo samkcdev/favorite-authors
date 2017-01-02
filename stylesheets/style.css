@@ -108,6 +108,11 @@ img {
   margin: 0 auto;
 }
 
+/* line 47, ../sass/style.scss */
+.mainContent {
+  display: flex;
+}
+
 /* line 1, ../sass/_header.scss */
 header {
   background: #ccc;
@@ -140,8 +145,16 @@ header nav ul li a {
 }
 /* line 24, ../sass/_header.scss */
 header nav ul li a:hover {
-  background: #f00;
+  background: #068592;
   color: #fff;
+}
+
+/* line 35, ../sass/_header.scss */
+.banner {
+  background: #224346;
+  padding: 60px 40px;
+  color: #fff;
+  font-size: 40px;
 }
 
 /* line 1, ../sass/_content.scss */
@@ -196,7 +209,7 @@ header nav ul li a:hover {
 
 /* line 48, ../sass/_content.scss */
 .alt-content {
-  background: #f00;
+  background: #09a0af;
 }
 
 /* line 53, ../sass/_content.scss */
@@ -214,5 +227,5 @@ header nav ul li a:hover {
   float: right;
   background: #000;
   width: 30%;
-  padding: 10px 15px;
+  padding: 15px;
 }

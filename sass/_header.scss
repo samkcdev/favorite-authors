@@ -22,7 +22,7 @@ header{
         padding: 0 15px;
         transition: $commontransition;
             &:hover{
-                background: #f00;
+                background: #068592;
                 color:#fff;
             }
         }
@@ -31,3 +31,11 @@ header{
    
     
 }
+
+.banner{
+    background: #224346;
+    padding: 60px 40px;
+    color:#fff;
+    font-size:40px
+}
+
