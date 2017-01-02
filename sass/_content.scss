@@ -2,14 +2,34 @@
     float:left;
     background: $contentbg;
     width: 70%;
-    padding: 15px;
     color: $white;
+}
+
+.content article{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #066069;
+}
+
+.content article:last-of-type{
+    border-bottom:0;
+}
+
+.content figure{
+    margin:0 15px 0 0;
+}
+
+.content-text h2{
+    margin-bottom: 15px;
 }
 
 .content p{
     font-size: 14px;
     line-height: 25px;
+    margin-bottom: 15px;
 }
+
 
 .content a{
     display: inline-block;
@@ -22,4 +42,17 @@
     padding: 5px 10px;
     background:$white;
     color:$black;
+}
+
+.alt-content{
+    background: #f00;
+    
+}
+
+.alt-content figure{
+    margin-right:0;
+}
+
+.alt-content .content-text {
+    margin-right: 15px;
 }
