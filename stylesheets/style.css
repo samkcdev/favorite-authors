@@ -63,13 +63,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 13, ../sass/style.scss */
-html, body {
+/* line 12, ../sass/style.scss */
+html,
+body {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -79,36 +84,36 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 h2 {
   font-size: 25px;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 img {
   max-width: 100%;
   display: block;
   height: auto;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .container {
   width: 1200px;
   max-width: 96%;
   margin: 0 auto;
 }
 
-/* line 47, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .mainContent {
   display: flex;
 }

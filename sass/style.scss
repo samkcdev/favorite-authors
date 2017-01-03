@@ -4,47 +4,46 @@ $white:#fff;
 $black:#000;
 $brandcolor:#000;
 $contentbg:#068592;
-
 $commontransition:all 500ms ease-in;
-
-
-* { box-sizing: border-box; }
-
-html,body{
-    box-sizing: border-box;
+* {
+    @include box-sizing(border-box);
 }
 
-body
-{
-    color:#333;
+html,
+body {
+    @include box-sizing(border-box);
+}
+
+body {
+    color: #333;
     font-family: 'Roboto', sans-serif;
 }
 
-h2{
+h2 {
     font-size: 25px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.clear{
-    clear:both;
+.clear {
+    clear: both;
 }
 
-img{
+img {
     max-width: 100%;
     display: block;
     height: auto;
 }
 
-.container{
+.container {
     width: 1200px;
     max-width: 96%;
     margin: 0 auto;
 }
 
-.mainContent{
+.mainContent {
     display: flex;
 }
 
