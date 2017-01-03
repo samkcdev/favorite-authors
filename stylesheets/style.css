@@ -63,14 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 12, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 html,
 body {
   -moz-box-sizing: border-box;
@@ -78,55 +78,60 @@ body {
   box-sizing: border-box;
 }
 
-/* line 17, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 body {
   color: #333;
   font-family: 'Roboto', sans-serif;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 h2 {
   font-size: 25px;
 }
 
-/* line 26, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 32, ../sass/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 34, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
   height: auto;
 }
 
-/* line 40, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .container {
   width: 1200px;
   max-width: 96%;
   margin: 0 auto;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .row {
   margin-left: -15px;
   margin-right: -15px;
 }
 
-/* line 51, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
+.row-margin--bottom {
+  margin-bottom: 30px;
+}
+
+/* line 57, ../sass/style.scss */
 .col-3 {
   width: 33.33333%;
   float: left;
   padding: 0 15px 0 15px;
 }
 
-/* line 57, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .col-3:last-of-type {
   margin-right: 0;
 }
@@ -173,6 +178,7 @@ header nav ul li a:hover {
   padding: 60px 40px;
   color: #fff;
   font-size: 40px;
+  margin-bottom: 15px;
 }
 
 /* line 1, ../sass/_content.scss */
@@ -182,29 +188,23 @@ header nav ul li a:hover {
 }
 
 /* line 6, ../sass/_content.scss */
-.content article {
+.content-text {
   padding: 15px;
 }
 
-/* line 12, ../sass/_content.scss */
-.content figure {
-  margin: 0 15px 0 0;
-  flex-shrink: 0;
-}
-
-/* line 17, ../sass/_content.scss */
+/* line 10, ../sass/_content.scss */
 .content-text h2 {
   margin-bottom: 15px;
 }
 
-/* line 21, ../sass/_content.scss */
+/* line 14, ../sass/_content.scss */
 .content p {
   font-size: 14px;
   line-height: 25px;
   margin-bottom: 15px;
 }
 
-/* line 28, ../sass/_content.scss */
+/* line 21, ../sass/_content.scss */
 .content a {
   display: inline-block;
   border-color: #ccc;
@@ -215,17 +215,17 @@ header nav ul li a:hover {
   color: #000;
 }
 
-/* line 41, ../sass/_content.scss */
+/* line 34, ../sass/_content.scss */
 .alt-content {
   background: #09a0af;
 }
 
-/* line 46, ../sass/_content.scss */
+/* line 39, ../sass/_content.scss */
 .alt-content figure {
   margin-right: 0;
 }
 
-/* line 50, ../sass/_content.scss */
+/* line 43, ../sass/_content.scss */
 .alt-content .content-text {
   margin-right: 15px;
 }
