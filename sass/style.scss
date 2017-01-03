@@ -43,10 +43,12 @@ img {
     margin: 0 auto;
 }
 
-.mainContent {
-    display: flex;
+.col-3{
+    width: (100% / 3);
+    display: inline-block;
 }
+
+
 
 @import "header";
 @import "content";
-@import "sidebar";
