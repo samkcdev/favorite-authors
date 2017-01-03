@@ -113,10 +113,22 @@ img {
   margin: 0 auto;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 51, ../sass/style.scss */
 .col-3 {
   width: 33.33333%;
-  display: inline-block;
+  float: left;
+  padding: 0 15px 0 15px;
+}
+
+/* line 57, ../sass/style.scss */
+.col-3:last-of-type {
+  margin-right: 0;
 }
 
 /* line 1, ../sass/_header.scss */
