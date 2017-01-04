@@ -119,19 +119,19 @@ img {
   margin-right: -15px;
 }
 
-/* line 53, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .row-margin--bottom {
   margin-bottom: 30px;
 }
 
-/* line 57, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .col-3 {
   width: 33.33333%;
   float: left;
   padding: 0 15px 0 15px;
 }
 
-/* line 63, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .col-3:last-of-type {
   margin-right: 0;
 }
