@@ -1,42 +1,57 @@
-header{
-    background: #ccc;
-    border-bottom: 1px solid #000;
+header {
+    background: #272727;
     padding: 0 15px;
-    .logo{
-        float:left;
+    .logo {
+        float: left;
         padding: 20px 5px;
         background: #fff;
-        color:$brandcolor;
+        color: $brandcolor;
         display: block;
     }
-   
-    nav{
-        float:right;
-         ul li
-        {
-        display: inline-block;
-        a{
-        color:$white;
-        line-height: 56px;
-        display: block;
-        padding: 0 15px;
-        transition: $commontransition;
-            &:hover{
-                background: #068592;
-                color:#fff;
+    nav {
+        float: right;
+        ul li {
+            display: inline-block;
+            a {
+                color: $white;
+                line-height: 56px;
+                display: block;
+                padding: 0 15px;
+                transition: $commontransition;
+                &:hover {
+                    background: #068592;
+                    color: #fff;
+                }
             }
         }
+    }
+}
+
+.banner {
+    background: #224346 url(../images/bg-banner.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 60px 40px;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 15px;
+    h1{
+        margin-bottom: 30px;
+        line-height: 1.25
+    }
+    span {
+        display: block;
+        font-size: 15px;
+        font-style: italic;
+        position: relative;
+        padding-left: 15px;
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 6px;
+            width: 10px;
+            height: 1px;
+            background: #fff;
         }
     }
-   
-    
 }
-
-.banner{
-    background: #224346;
-    padding: 60px 40px;
-    color:#fff;
-    font-size:40px;
-    margin-bottom: 15px;
-}
-

@@ -125,24 +125,30 @@ img {
 }
 
 /* line 56, ../sass/style.scss */
+.col-2 {
+  width: 50%;
+  float: left;
+  padding: 0 15px 0 15px;
+}
+
+/* line 62, ../sass/style.scss */
 .col-3 {
   width: 33.33333%;
   float: left;
   padding: 0 15px 0 15px;
 }
 
-/* line 62, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .col-3:last-of-type {
   margin-right: 0;
 }
 
 /* line 1, ../sass/_header.scss */
 header {
-  background: #ccc;
-  border-bottom: 1px solid #000;
+  background: #272727;
   padding: 0 15px;
 }
-/* line 5, ../sass/_header.scss */
+/* line 4, ../sass/_header.scss */
 header .logo {
   float: left;
   padding: 20px 5px;
@@ -150,15 +156,15 @@ header .logo {
   color: #000;
   display: block;
 }
-/* line 13, ../sass/_header.scss */
+/* line 11, ../sass/_header.scss */
 header nav {
   float: right;
 }
-/* line 15, ../sass/_header.scss */
+/* line 13, ../sass/_header.scss */
 header nav ul li {
   display: inline-block;
 }
-/* line 18, ../sass/_header.scss */
+/* line 15, ../sass/_header.scss */
 header nav ul li a {
   color: #fff;
   line-height: 56px;
@@ -166,19 +172,43 @@ header nav ul li a {
   padding: 0 15px;
   transition: all 500ms ease-in;
 }
-/* line 24, ../sass/_header.scss */
+/* line 21, ../sass/_header.scss */
 header nav ul li a:hover {
   background: #068592;
   color: #fff;
 }
 
-/* line 35, ../sass/_header.scss */
+/* line 30, ../sass/_header.scss */
 .banner {
-  background: #224346;
+  background: #224346 url(../images/bg-banner.jpg) no-repeat 0 0;
+  background-size: cover;
   padding: 60px 40px;
   color: #fff;
   font-size: 40px;
   margin-bottom: 15px;
+}
+/* line 37, ../sass/_header.scss */
+.banner h1 {
+  margin-bottom: 30px;
+  line-height: 1.25;
+}
+/* line 41, ../sass/_header.scss */
+.banner span {
+  display: block;
+  font-size: 15px;
+  font-style: italic;
+  position: relative;
+  padding-left: 15px;
+}
+/* line 47, ../sass/_header.scss */
+.banner span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 10px;
+  height: 1px;
+  background: #fff;
 }
 
 /* line 1, ../sass/_content.scss */
