@@ -1,24 +1,10 @@
 .content{
-    float:left;
     background: $contentbg;
-    width: 70%;
     color: $white;
 }
 
-.content article{
-    display: flex;
-    justify-content: space-between;
+.content-text{
     padding: 15px;
-    border-bottom: 1px solid #066069;
-}
-
-.content article:last-of-type{
-    border-bottom:0;
-}
-
-.content figure{
-    margin:0 15px 0 0;
-    flex-shrink: 0;
 }
 
 .content-text h2{
