@@ -1,3 +1,12 @@
+*, *::after, *::before{
+    @include box-sizing(border-box);
+}
+html,
+body {
+    @include box-sizing(border-box);
+}
+
+
 %clearfix {
   *zoom: 1;
   &:before, &:after {

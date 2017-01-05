@@ -3,19 +3,11 @@
 @import "reset.scss";
 $white:#fff;
 $black:#000;
+
 $brandcolor:#000;
 $contentbg:#068592;
 $commontransition:all 500ms ease-in;
 $row-margin--bottom:30px;
-
-*, *::after, *::before{
-    @include box-sizing(border-box);
-}
-html,
-body {
-    @include box-sizing(border-box);
-}
-
 
 
 body {
@@ -23,7 +15,8 @@ body {
     font-family: 'Roboto', sans-serif;
     background: url(../images/body-bg.jpg) repeat 0 0;
     background-size: cover;
-    background-attachment: fixed
+    background-attachment: fixed;
+    line-height: 1.35;
 }
 
 h2 {
