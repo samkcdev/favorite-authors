@@ -63,8 +63,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 10, ../sass/style.scss */
-* {
+/* line 1, ../sass/_reset.scss */
+.row {
+  *zoom: 1;
+}
+/* line 3, ../sass/_reset.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+/* line 7, ../sass/_reset.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 11, ../sass/style.scss */
+*, *::after, *::before {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -78,7 +92,7 @@ body {
   box-sizing: border-box;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 body {
   color: #333;
   font-family: 'Roboto', sans-serif;
@@ -87,61 +101,61 @@ body {
   background-attachment: fixed;
 }
 
-/* line 27, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 h2 {
   font-size: 25px;
 }
 
-/* line 31, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 39, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 img {
   width: 100%;
   display: block;
   height: auto;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 .container {
   width: 1200px;
   max-width: 96%;
   margin: 0 auto;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .row {
   margin-left: -15px;
   margin-right: -15px;
 }
 
-/* line 55, ../sass/style.scss */
+/* line 58, ../sass/style.scss */
 .row-margin--bottom {
   margin-bottom: 30px;
 }
 
-/* line 59, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .col-2 {
   width: 50%;
   float: left;
   padding: 0 15px 0 15px;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .col-3 {
   width: 33.33333%;
   float: left;
   padding: 0 15px 0 15px;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .col-3:last-of-type {
   margin-right: 0;
 }
@@ -261,4 +275,10 @@ header nav ul li a:hover {
 /* line 43, ../sass/_content.scss */
 .alt-content .content-text {
   margin-right: 15px;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  padding: 10px 0;
+  background: #ccc;
 }

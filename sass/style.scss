@@ -1,5 +1,6 @@
 @import "compass/reset";
 @import "compass/css3";
+@import "reset.scss";
 $white:#fff;
 $black:#000;
 $brandcolor:#000;
@@ -7,14 +8,15 @@ $contentbg:#068592;
 $commontransition:all 500ms ease-in;
 $row-margin--bottom:30px;
 
-* {
+*, *::after, *::before{
     @include box-sizing(border-box);
 }
-
 html,
 body {
     @include box-sizing(border-box);
 }
+
+
 
 body {
     color: #333;
@@ -50,6 +52,7 @@ img {
 .row{
     margin-left: -15px;
     margin-right: -15px;
+    @extend %clearfix;
 }
 
 .row-margin--bottom{
@@ -76,3 +79,4 @@ img {
 
 @import "header";
 @import "content";
+@import "footer";
