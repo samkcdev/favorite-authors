@@ -1,0 +1,59 @@
+.container {
+    width: 1200px;
+    max-width: 96%;
+    margin: 0 auto;
+}
+.row{
+    margin-left: -15px;
+    margin-right: -15px;
+    @extend %clearfix;
+}
+
+.row-margin--bottom{
+    margin-bottom: $row-margin--bottom;
+}
+%col-common-padding{
+    padding: 0 15px 0 15px;
+}
+.col-full{
+    width: 100% / $grid-columns * 12;
+    float:left;
+    padding: 0 15px 0 15px;
+}
+
+.col-2{
+    width: 100% / $grid-columns * 2;
+    float:left;
+    @extend .col-full;
+}
+
+.col-3{
+    width: 100% / $grid-columns * 3;
+    float:left;
+    @extend .col-full
+}
+
+.col-4{
+   width: 100% / $grid-columns * 4;
+    float:left;
+    @extend .col-full
+}
+
+.col-5{
+    width: 100% / $grid-columns * 5;
+    float:left;
+    @extend .col-full
+}
+
+
+.col-8{
+    width: 100% / $grid-columns * 8;
+    float:left;
+    @extend .col-full
+}
+
+.col-9{
+    width: 100% / $grid-columns * 9;
+    float:left;
+    @extend .col-full
+}

@@ -4,7 +4,7 @@
 }
 
 .content-text{
-    padding: 15px;
+    padding: $commonpadding;
 }
 
 .content-text h2{
@@ -21,7 +21,7 @@
     display: inline-block;
     border:
         {
-            color:#ccc;
+            color:$white;
             width:1px;
             style: solid
             } 
@@ -41,4 +41,14 @@
 
 .alt-content .content-text {
     margin-right: 15px;
+}
+
+
+.inner-content{
+    padding: $commonpadding;
+    background: $white;
+}
+
+.inner-content figure{
+    display: inline-block;
 }

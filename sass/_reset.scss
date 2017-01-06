@@ -1,9 +1,9 @@
 *, *::after, *::before{
-    @include box-sizing(border-box);
+    @include border-box;
 }
 html,
 body {
-    @include box-sizing(border-box);
+    @include border-box;
 }
 
 

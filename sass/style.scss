@@ -1,14 +1,9 @@
 @import "compass/reset";
 @import "compass/css3";
-@import "reset.scss";
-$white:#fff;
-$black:#000;
-
-$brandcolor:#000;
-$contentbg:#068592;
-$commontransition:all 500ms ease-in;
-$row-margin--bottom:30px;
-
+@import "mixins";
+@import "reset";
+@import "variables";
+@import "grid";
 
 body {
     color: #333;
@@ -27,48 +22,11 @@ a {
     text-decoration: none;
 }
 
-.clear {
-    clear: both;
-}
-
 img {
     width: 100%;
     display: block;
     height: auto;
 }
-
-.container {
-    width: 1200px;
-    max-width: 96%;
-    margin: 0 auto;
-}
-.row{
-    margin-left: -15px;
-    margin-right: -15px;
-    @extend %clearfix;
-}
-
-.row-margin--bottom{
-    margin-bottom: $row-margin--bottom;
-}
-
-.col-2{
-    width: (100% / 2);
-    float:left;
-    padding: 0 15px 0 15px
-}
-
-.col-3{
-    width: (100% / 3);
-    float:left;
-    padding: 0 15px 0 15px
-}
-
-.col-3:last-of-type{
-    margin-right: 0;
-}
-
-
 
 @import "header";
 @import "content";
