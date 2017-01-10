@@ -3,3 +3,11 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+@mixin border-radius($borderRadius) {
+    border-radius: ($borderRadius)
+}
+
+@mixin btngradient {
+    
+}

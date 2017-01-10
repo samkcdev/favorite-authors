@@ -111,7 +111,7 @@ body {
 }
 
 /* line 18, ../sass/_grid.scss */
-.col-full, .col-2, .col-3, .col-4, .col-5, .col-8, .col-9 {
+.col-full, .col-2, .col-3, .col-4, .col-5, .col-6, .col-8, .col-9 {
   width: 100%;
   float: left;
   padding: 0 15px 0 15px;
@@ -141,13 +141,19 @@ body {
   float: left;
 }
 
-/* line 49, ../sass/_grid.scss */
+/* line 48, ../sass/_grid.scss */
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+/* line 55, ../sass/_grid.scss */
 .col-8 {
   width: 66.66667%;
   float: left;
 }
 
-/* line 55, ../sass/_grid.scss */
+/* line 61, ../sass/_grid.scss */
 .col-9 {
   width: 75%;
   float: left;
@@ -158,7 +164,7 @@ body {
   color: #333;
   font-family: 'Roboto', sans-serif;
   background: url(../images/body-bg.jpg) repeat 0 0;
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   line-height: 1.35;
 }
@@ -277,32 +283,38 @@ header nav ul li a:hover {
   border-width: 1px;
   border-style: solid;
   padding: 5px 10px;
-  background: #fff;
-  color: #000;
+  background: #068592;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 500ms ease-in;
+}
+/* line 33, ../sass/_content.scss */
+.content a:hover {
+  background: #0ca3b3;
 }
 
-/* line 33, ../sass/_content.scss */
+/* line 38, ../sass/_content.scss */
 .alt-content {
   background: #09a0af;
 }
 
-/* line 38, ../sass/_content.scss */
+/* line 43, ../sass/_content.scss */
 .alt-content figure {
   margin-right: 0;
 }
 
-/* line 42, ../sass/_content.scss */
+/* line 47, ../sass/_content.scss */
 .alt-content .content-text {
   margin-right: 15px;
 }
 
-/* line 47, ../sass/_content.scss */
+/* line 52, ../sass/_content.scss */
 .inner-content {
   padding: 15px;
   background: #fff;
 }
 
-/* line 52, ../sass/_content.scss */
+/* line 57, ../sass/_content.scss */
 .inner-content figure {
   display: inline-block;
 }

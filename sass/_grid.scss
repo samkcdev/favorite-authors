@@ -45,6 +45,12 @@
     @extend .col-full
 }
 
+.col-6{
+    width: 100% / $grid-columns * 6;
+    float:left;
+    @extend .col-full
+}
+
 
 .col-8{
     width: 100% / $grid-columns * 8;
